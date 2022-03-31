@@ -1,16 +1,23 @@
-*{
-    background-color: pink;
+* {
+    /* background-color: pink; */
 }
 
-.calculator{
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
     text-align: center;
     margin: auto;
     width: 400px;
     /* background-color: cyan; */
     border: 1px solid black;
+    box-shadow: 7px 10px #ebaaff;
+    margin-top: 40px;
 }
 
-.calculator-screen{
+.calculator-screen {
     width: 100%;
     height: 100px;
     text-align: right;
@@ -19,17 +26,18 @@
     box-sizing: border-box;
     border: none;
     border: 1px solid gray;
+    box-shadow: 0 1px;
 }
 
-.calculator-keys{
+.calculator-keys {
     width: 100%;
 }
 
-.row{
+.row {
     display: flex;
 }
 
-button{
+button {
     height: 80px;
     font-size: 32px;
     width: 25%;
@@ -39,37 +47,43 @@ button{
     transition: 0.4s;
     border: 1px solid black;
     cursor: pointer;
+    margin: 5px;
+    box-shadow: 3px 4px rgb(140, 255, 230);
 }
 
-.all-clear, .zero-btn{
-    width: 50%;
+.all-clear,
+.zero-btn {
+    width: 53%;
 }
 
-.all-clear{
+.all-clear {
     color: red;
 }
 
-.equal-sign{
+.equal-sign {
     background-color: green;
     color: white;
 }
 
-.equal-sign:hover{
+.equal-sign:hover {
     color: green;
 
 }
 
-.operator, .percentage{
+.operator,
+.percentage {
     color: green;
     font-size: 40px;
 }
 
-.percentage{
+
+.percentage {
     font-size: 26px;
     font-weight: bold;
 }
 
-button:hover{
+button:hover {
     background-color: rgba(255, 255, 255, 0.3);
     /* background-color: rgba(209, 209, 209, 0.3); */
+    box-shadow: 3px 5px rgb(22, 252, 98);
 }
