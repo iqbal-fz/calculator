@@ -1,9 +1,14 @@
+*{
+    background-color: pink;
+}
+
 .calculator{
     text-align: center;
     margin: auto;
     width: 400px;
     /* background-color: cyan; */
-    border: 1px solid black;}
+    border: 1px solid black;
+}
 
 .calculator-screen{
     width: 100%;
